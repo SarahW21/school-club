@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="dex.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 5px 10px 8px 5px;
+  margin: 8px;
+  background-color: #c5c6c7;
+  font-family: bignoodletitling;
+}
+
+.about-section {
+  padding: 0.5px;
+  text-align: center;
+  background-color: #1F2833;
+  color: white;
+  font-family: bignoodletitling;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+<!--CHIPS website design about the club.-->
+<!--Contain information about what times meetings are held.-->
+<!--Information about upcoming events, as well as lead members of the club.-->
+<!--Color schemes are: #1F2833(dark blue), #C5C6C7(light gray), #66FCF1(cyan), #45A29E(teal) and Black.-->
+</head>
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <a href="#">CHIPS</a>
+    <a href="index101.html" class="active">Home</a>
+    <a href="About Us.html">About Club</a>
+    <a href="Club members.html">Club Members</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+<div style="height: 100px;"></div>
+
+<div class="about-section">
+    <h1>About Us</h1>
+</div>
+
+<h2 style="text-decoration: underline;text-align: center;font-family:bignoodletitling;">Mission Statement</h2>
+<h3 style="text-align: center;margin: 10px;height:100px;font-family: bignoodletitling;">Our goal is our commitment to providing the knowledge and skills required to prepare students to innovate and develop relevant technologies.</h3>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="download.jpg" style="width:100%">
+      <div class="container">
+        <h2>CHIPS Week</h2>
+        <p>Every year, the club is granted three days in November for 'CHIPS Week', where the club hosts various activities. These include competitions and seminars (especially the competitions, which most are excited to see). </p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="classroom.jpg" alt="Computer Lab" style="width:100%">
+      <div class="container">
+        <h2>Tutoring</h2>
+        <p>CHIPS provides tutoring sessions for those who need them, such Data Structures and Programming. Meetings are usually held each week, and you can request a topic to study.</p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="curly.jpg" style="width:100%">
+      <div class="container">
+        <h2>Exploring Opportunities</h2>
+        <p>Through hackathons or job opportunities, CHIPS is ideal for finding technology-based events that members can engage in. You can find events taking place both on and off the campus.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
